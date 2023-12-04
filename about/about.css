@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 ,h2,h3,h4,h5,h6,p{
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+nav{
+   position: fixed !important;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+header{
+    background-image: url("imgs/drew-coffman-1872.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/* footer */
+footer{
+    background-color: rgb(53, 51, 48);
+}
+.logoFooter{
+    background-image: url("../imgs/contact-details-map.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.sectionFive{
+    background-color: rgb(64, 61, 56);
+
+}
+.sectionFive h6{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.sectionFive p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #969696;
+}
+
+.sectionFive ul{
+    list-style-type: none;
+}
+.sectionFive ul li p{  
+    display: inline-block;
+}
+.sectionFive ul li a{  
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #969696;
+}
+hr{
+    color: white;
+}
+
+footer p{
+    font-size: .9375rem;
+    font-weight: 400;
+    color: #777777;
+}
+footer a{
+    text-decoration: none;
+} 
+footer .logo img{
+    border-radius: 50% 50%;
+    background-color: rgb(50, 53, 53);
+    max-width: 60px;
+}
+
+
+/*  */
+
+/* header */
+header h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 4.8125rem;
+    color: #303030;
+}
+header h4{
+    font-size: 1.125rem;
+    line-height: 2.0625rem;
+    font-weight: 400;
+    color: #606060;
+}
+
+header h3{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.75rem;
+    color: #303030;
+}
+header p{
+    font-size: 1.125rem;
+    line-height: 2.125rem;
+    font-weight: 400;
+    color: #606060;
+}
+
+.sectionOne .row h6{
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    color: #303030;
+}
+.sectionOne p{
+    font-weight: 400;
+    font-size: 1.0625rem;
+    line-height: 2rem;
+    color: #888888;
+}
+
+.sectionOne .row p{
+    font-size: 1.0625rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #686868;
+}
+
+
+.sectionOne{
+    background-color: #f8f8f8;
+}
+.sectionOne i{
+    font-size: 2.5rem;
+    color: #8e7754;
+}
+
+
+/* section two */
+.sectionTwo{
+    background-color: rgb(142, 119, 84);
+    color: white;
+}
+
+.sectionTwo i{
+    font-size: 2.125rem;
+}
+.sectionTwo p{
+    font-weight: 400;
+    font-size: 3.25rem;
+    line-height: 1.5625rem;
+}
+
+.sectionTwo h6{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: rgba(255, 255, 255, 0.8);
+}

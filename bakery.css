@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 ,h2,h3,h4,h5,h6,p{
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+nav{
+   position: fixed !important;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+header{
+    background-image: url("imgs/drew-coffman-1872.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+header div h3{
+    font-size: 1.375rem;
+    line-height: 2.5625rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.92);
+}
+header div h1{
+    font-size: 4.75rem;
+    line-height: 5.6875rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255);
+}
+/*  */
+.sectionOne h3{
+    font-size: 2rem;
+    color: #303030;
+    line-height: 2.75rem;
+    font-weight: 400;
+}
+.sectionOne p{
+    font-size: 1.0625rem;
+    color: #686868;
+    line-height: 2rem;
+    font-weight: 400;
+    
+}
+.icon li p{
+    font-size: 1.0625rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: #686868;
+    display: inline-block;
+    margin-left: 10px;
+}
+.icon{
+    list-style-type: none;
+}
+.icon li i{
+    color: #8e7754;
+}
+/* section two */
+.sectionTwo ,.sectionFour{
+    background-color: #f8f8f8 ;
+}
+.sectionTwo h3{
+    font-size: 2rem;
+    line-height: 2.75rem;
+    font-weight: 400;
+    color: #303030;
+}
+.sectionTwo p{
+    font-size: 1.0625rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: #686868;
+}
+/* sectionThree */
+.sectionThree h2{
+    font-size: 1.875rem;
+    font-weight: 400;
+    line-height: 2.5625rem;
+    color: #303030;
+}
+.sectionThree p{
+    font-size: 1.0625rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: #888888;
+}
+.sectionThree h4{
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+    font-weight: 400;
+    color: #303030;
+}
+
+/* sectionFour */
+.sectionFour h3{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #303030;
+}
+.sectionFour h6 ,.sectionFour p{
+    font-size: 1.0625rem;
+    font-weight: 400;
+    color: #686868;
+}
+.listAdress {
+    list-style-type: none;
+}
+.listAdress li p{
+    display: inline-block;
+}
+.listAdress li i{
+    color: white;
+    background-color: #353330;
+    
+}
+/* footer */
+footer{
+    background-color: rgb(53, 51, 48);
+}
+.logoFooter{
+    background-image: url("imgs/contact-details-map.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.sectionFive{
+    background-color: rgb(64, 61, 56);
+
+}
+.sectionFive h6{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.sectionFive p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #969696;
+}
+
+.sectionFive ul{
+    list-style-type: none;
+}
+.sectionFive ul li p{  
+    display: inline-block;
+}
+.sectionFive ul li a{  
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #969696;
+}
+hr{
+    color: white;
+}
+
+footer p{
+    font-size: .9375rem;
+    font-weight: 400;
+    color: #777777;
+}
+footer a{
+    text-decoration: none;
+} 
+footer .logo img{
+    border-radius: 50% 50%;
+    background-color: rgb(50, 53, 53);
+    max-width: 60px;
+}

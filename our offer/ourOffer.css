@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 ,h2,h3,h4,h5,h6,p{
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+nav{
+   position: fixed !important;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+header{
+    background-image: url("imgs/drew-coffman-1872.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/* footer */
+footer{
+    background-color: rgb(53, 51, 48);
+}
+.logoFooter{
+    background-image: url("../imgs/contact-details-map.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.sectionFive{
+    background-color: rgb(64, 61, 56);
+
+}
+.sectionFive h6{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.sectionFive p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #969696;
+}
+
+.sectionFive ul{
+    list-style-type: none;
+}
+.sectionFive ul li p{  
+    display: inline-block;
+}
+.sectionFive ul li a{  
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #969696;
+}
+hr{
+    color: white;
+}
+
+footer p{
+    font-size: .9375rem;
+    font-weight: 400;
+    color: #777777;
+}
+footer a{
+    text-decoration: none;
+} 
+footer .logo img{
+    border-radius: 50% 50%;
+    background-color: rgb(50, 53, 53);
+    max-width: 60px;
+}
+
+/*  */
+
+header h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 4.8125rem;
+    color: black;
+}
+.links a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 2rem;
+    color: #777777;
+}
+
+
+.col-md-4 h6{
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    color: #303030;
+}
+.col-md-4 span{
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    color: #888888;
+    font-weight: 500;
+}
+.col-md-4 p{
+    font-size: 1.0625rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #686868;
+}
+hr{
+    color: #303030;
+}
